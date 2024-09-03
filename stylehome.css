@@ -1,0 +1,106 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.head{
+    height: 795px;
+    width: auto;
+    background-image: url('images/bg_headermini.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.shadow_head{
+    box-shadow: 0px 0px 17px 0px gray;
+}
+
+.calendarImg img{
+    height: 300px;
+    width: auto;
+    animation: moving 1.6s;
+}
+
+.calendarImg{
+    position: absolute;
+    top: 42%;
+    left: 69%;
+}
+
+@keyframes moving{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
+
+.header_text{
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    font-size: large;
+}
+
+p .header_text{
+    font-size: 14px;
+}
+
+.header_list{
+    display: flex;
+    float: right;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.header_list .btn{
+    margin: 20% -25%;
+    border: 1px solid aliceblue;
+    padding: 10px 20px;
+}
+
+h2 a:hover{
+    text-decoration: none;
+}
+
+.Cald{
+    margin: 40px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.container {
+    width: 930px;
+    max-width: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color:rgb(7, 85, 202);
+    color: #fff;
+}
+
+/* La feuille de style pour les petits ecrans */
+@media screen and (max-width:750px){
+    .head{
+        height: 700px;
+        width: auto;
+    }
+
+    .calendarImg{
+        display: none;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+    .Cald{
+        margin: 0px;
+        box-shadow: 5px 10px 18px #888888;
+    }
+}
+
