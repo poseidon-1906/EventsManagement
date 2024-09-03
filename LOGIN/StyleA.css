@@ -1,0 +1,21 @@
+body{
+    background-color: whitesmoke;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg__card__navbar{
+	background-color: #000000;
+}
+.bg__card__footer{
+	background-color: #000000 !important;
+}
+#add__new__list{
+    top: -38px;
+    right: 0px;
+}
+
+.card-title {
+    margin-bottom: 4rem;
+}
